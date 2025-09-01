@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+ import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -48,7 +48,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       <h1>
         <Link to='/'>
           {' '}
-          <i className='fas fa-code'></i> DevConnector{' '}
+          <i className='fas fa-code'></i> DevConnector by Abhi{' '}
         </Link>
       </h1>
       {!loading && (
